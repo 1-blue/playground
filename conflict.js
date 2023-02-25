@@ -7,6 +7,6 @@
  */
 const sum = (...args) => args.reduce((acc, curr) => acc + curr);
 
-sum(1, 2, 3, 4, 5);
+sum(1, 2, 3, 4, 5, 6, 7); // work2
 
-sum("1", 2, 3, 4, 5);
+sum(1, 2, 3, 4, 5, 6); // work2
